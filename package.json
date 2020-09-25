@@ -1,0 +1,46 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Express Boilerplate",
+  "author": "Callum Martin",
+  "homepage": "https://callummartin.com",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --port 3000 --host 0.0.0.0 --progress --history-api-fallback --config webpack.config.development.js",
+    "build": "webpack -p --progress --config webpack.config.build.js"
+  },
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.3.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "glslify-loader": "^2.0.0",
+    "gsap": "^3.5.1",
+    "html-webpack-plugin": "^4.5.0",
+    "include-media": "^1.4.9",
+    "lodash": "^4.17.20",
+    "mini-css-extract-plugin": "^0.11.2",
+    "postcss": "^8.0.9",
+    "postcss-loader": "^4.0.2",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "raw-loader": "^4.0.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "stats.js": "^0.17.0",
+    "three": "^0.120.1",
+    "url-loader": "^4.1.0",
+    "webpack-merge": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
